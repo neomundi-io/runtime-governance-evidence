@@ -1,0 +1,149 @@
+# Runtime Governance Methodology — Round 2
+
+## Objective
+
+Round 2 is designed as the first independently reviewable runtime methodology test for NeoMundi.
+
+The purpose of this round is not to validate broad theoretical claims, but to evaluate whether a constrained runtime methodology can produce:
+- reproducible observations,
+- stable behavioral classifications,
+- identifiable runtime regime transitions,
+- and independently reviewable evidence structures.
+
+The round is explicitly structured to reduce circularity and post-hoc reinterpretation.
+
+---
+
+# Core methodological principle
+
+The methodology separates:
+- prompt generation,
+- expected outcomes,
+- runtime observation,
+- and post-hoc interpretation.
+
+No single actor controls the full evaluation chain.
+
+---
+
+# 1. Observer separation
+
+The witness-side framing, admissible evidence categories, and interpretation rules are fixed before the prompt batch is revealed.
+
+NeoMundi-side observers do not define categories after reviewing outputs.
+
+The objective is to reduce retrospective reinterpretation.
+
+---
+
+# 2. Prompt custody
+
+The prompt batch is:
+- generated externally,
+- timestamped,
+- frozen before execution,
+- and withheld from the ASRO-side review process until execution begins.
+
+NeoMundi-side observers do not know:
+- intended failure classes,
+- expected outcomes,
+- or target behavioral patterns in advance.
+
+---
+
+# 3. Frozen witness constraints
+
+Before execution, the following elements are frozen:
+- admissible evidence categories,
+- behavioral regime definitions,
+- continuity criteria,
+- transition criteria,
+- and central claim boundaries.
+
+No runtime redefinition is permitted after outputs are observed.
+
+---
+
+# 4. Execution conditions
+
+Execution conditions must remain stable and documented:
+- provider,
+- model version,
+- runtime configuration,
+- timestamp,
+- inference conditions,
+- and protocol version.
+
+The objective is to maximize reproducibility.
+
+---
+
+# 5. Runtime observation
+
+NeoMundi records runtime measurements including:
+- G-score evolution,
+- regime transitions,
+- DROP events,
+- total variation,
+- and runtime continuity patterns.
+
+Measurements are recorded independently from expected outcomes.
+
+---
+
+# 6. Post-hoc comparison only
+
+Comparison between:
+- observed outputs,
+- frozen witness constraints,
+- and withheld expected-outcome records
+
+occurs only after execution is completed.
+
+No retrofitting of categories is permitted after observation.
+
+---
+
+# 7. Admissible claims
+
+Round 2 may support claims regarding:
+- runtime consistency,
+- reproducibility of observed patterns,
+- behavioral regime continuity,
+- and partial runtime classification stability.
+
+Round 2 does NOT support claims regarding:
+- universal truth detection,
+- complete hallucination detection,
+- proof of physical laws,
+- or universal model interpretability.
+
+---
+
+# 8. Known limitations
+
+NeoMundi explicitly recognizes several limitations:
+- fluent hallucinations may remain thermodynamically stable,
+- some semantic failures may not produce measurable runtime instability,
+- runtime measurements remain partially model-dependent,
+- and some components of the methodology remain experimental.
+
+---
+
+# 9. Reviewability principle
+
+The methodology is designed to be:
+- independently reviewable,
+- reproducible,
+- documentable,
+- and open to methodological criticism.
+
+The objective is not to establish authority by assertion, but to progressively evaluate whether runtime instrumentation can support meaningful governance evidence structures.
+
+---
+
+# 10. Current status
+
+Round 2 constitutes an exploratory methodological phase.
+
+No claim of formal validation, certification, or universal applicability is made at this stage.
