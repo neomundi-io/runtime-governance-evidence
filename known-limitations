@@ -1,0 +1,108 @@
+# Known Limitations
+
+## Experimental status
+
+The current methodology remains experimental.
+
+NeoMundi does not claim:
+- universal runtime interpretability,
+- universal hallucination detection,
+- or complete semantic verification capabilities.
+
+The objective is to explore whether constrained runtime evidence structures can support meaningful governance instrumentation.
+
+---
+
+# Fluent hallucinations
+
+Some outputs may remain thermodynamically stable while still containing factually incorrect information.
+
+This class of failure is currently referred to as:
+- fluent hallucinations.
+
+Such outputs may present:
+- low runtime variation,
+- stable continuity patterns,
+- and no observable instability signals.
+
+This limitation is explicitly recognized.
+
+---
+
+# Semantic-blind constraints
+
+The OBS methodology intentionally operates under semantic-blind constraints.
+
+As a consequence:
+- certain semantic inconsistencies,
+- contextual contradictions,
+- or factual errors
+
+may remain outside direct runtime observability.
+
+This tradeoff is intentional and linked to:
+- privacy,
+- non-retention,
+- and independent runtime instrumentation goals.
+
+---
+
+# Model dependency
+
+Runtime observations remain partially dependent on:
+- provider architectures,
+- inference stacks,
+- model versions,
+- and execution conditions.
+
+Observed patterns may vary between providers and runtime environments.
+
+---
+
+# Protocol dependency
+
+Results remain dependent on:
+- protocol design,
+- prompt construction,
+- execution constraints,
+- and observer separation quality.
+
+Poorly constrained protocols may introduce circular validation patterns.
+
+---
+
+# No universal truth verification
+
+NeoMundi does not currently claim to verify factual truth.
+
+The methodology focuses on:
+- runtime continuity,
+- behavioral regime transitions,
+- and observable execution patterns.
+
+Truth verification remains a separate problem space.
+
+---
+
+# No claim of physical law validation
+
+NeoMundi does not claim to demonstrate or validate a universal physical law governing AI systems.
+
+The methodology explores whether:
+- variation-based runtime measurements,
+- continuity observations,
+- and constrained evidence structures
+
+can support operational governance instrumentation.
+
+---
+
+# Ongoing methodological evolution
+
+The methodology continues to evolve through:
+- runtime experiments,
+- benchmark comparisons,
+- observer-separation protocols,
+- and independently reviewable evaluations.
+
+Some components remain exploratory and subject to revision.
