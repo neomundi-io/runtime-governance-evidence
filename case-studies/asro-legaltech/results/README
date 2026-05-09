@@ -1,0 +1,15 @@
+# Results
+
+Observed outputs and runtime findings associated with the ASRO × NeoMundi LegalTech study.
+
+This directory may contain:
+- provider comparison outputs,
+- runtime behavioral findings,
+- FLAG event observations,
+- continuity vs divergence analyses,
+- hallucination observations,
+- coherence measurements,
+- regime classifications,
+- cross-provider comparison summaries.
+
+These results are considered experimental observations and may evolve during review and validation phases.
