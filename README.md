@@ -25,6 +25,21 @@ The system being observed often participates in its own certification.
 
 ---
 
+# Methodological constraints
+
+This repository intentionally operates under constrained methodological assumptions.
+
+The objective is not to prove universal claims about AI systems, but to explore whether:
+- runtime observations,
+- behavioral continuity patterns,
+- and independently reviewable evidence structures
+
+can support meaningful governance instrumentation.
+
+Claims are intentionally limited to what the methodology can reasonably support.
+
+----
+
 ## The Research Direction
 
 This repository documents experimental work around independent runtime witness layers.
