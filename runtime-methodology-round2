@@ -5,6 +5,7 @@
 Round 2 is designed as the first independently reviewable runtime methodology test for NeoMundi.
 
 The purpose of this round is not to validate broad theoretical claims, but to evaluate whether a constrained runtime methodology can produce:
+
 - reproducible observations,
 - stable behavioral classifications,
 - identifiable runtime regime transitions,
@@ -17,133 +18,268 @@ The round is explicitly structured to reduce circularity and post-hoc reinterpre
 # Core methodological principle
 
 The methodology separates:
+
 - prompt generation,
 - expected outcomes,
 - runtime observation,
-- and post-hoc interpretation.
+- evidence preservation,
+- post-hoc comparison,
+- interpretation,
+- and final authority.
 
 No single actor controls the full evaluation chain.
+
+A measurement, preserved evidence item, comparison result, or witness record does not by itself constitute a verdict, authorization, certification, or final governance decision.
 
 ---
 
 # 1. Observer separation
 
-The witness-side framing, admissible evidence categories, and interpretation rules are fixed before the prompt batch is revealed.
+The witness-side framing, evidence-preservation categories, provenance requirements, and interpretation boundaries are fixed before the prompt batch is revealed.
 
-NeoMundi-side observers do not define categories after reviewing outputs.
+NeoMundi-side observers do not define measurement or classification categories after reviewing outputs.
 
-The objective is to reduce retrospective reinterpretation.
+ASRO-side contributors may define how governed-state evidence is preserved and presented for independent review, but do not determine whether that evidence is legally, procedurally, or operationally admissible.
+
+Any determination of admissibility remains with the relevant reviewer, organization, procedure, or competent authority.
+
+The objective is to reduce retrospective reinterpretation while preserving clear authority boundaries.
 
 ---
 
 # 2. Prompt custody
 
 The prompt batch is:
+
 - generated externally,
 - timestamped,
 - frozen before execution,
-- and withheld from the ASRO-side review process until execution begins.
+- and withheld from the witness-side review process until execution begins.
 
 NeoMundi-side observers do not know:
+
 - intended failure classes,
 - expected outcomes,
 - or target behavioral patterns in advance.
+
+The identity of prompt authors, the time of batch creation, the batch version, and the integrity reference of the frozen batch must be documented.
 
 ---
 
 # 3. Frozen witness constraints
 
 Before execution, the following elements are frozen:
-- admissible evidence categories,
+
+- evidence-preservation categories,
+- provenance requirements,
 - behavioral regime definitions,
 - continuity criteria,
 - transition criteria,
+- comparison criteria,
 - and central claim boundaries.
 
+The freeze applies to the protocol definitions used for the execution. It does not imply that any preserved evidence has already been declared legally, procedurally, or operationally admissible.
+
 No runtime redefinition is permitted after outputs are observed.
+
+Any subsequent amendment must be documented as a new protocol version and must not retroactively alter the interpretation rules applied to a completed execution.
 
 ---
 
 # 4. Execution conditions
 
 Execution conditions must remain stable and documented:
+
 - provider,
-- model version,
+- model version or declared model identifier,
 - runtime configuration,
 - timestamp,
 - inference conditions,
+- prompt batch version,
+- measurement version,
 - and protocol version.
 
-The objective is to maximize reproducibility.
+Where a provider does not expose an exact model version or changes it without notice, that limitation must be explicitly recorded.
+
+The objective is to maximize reproducibility and document the conditions under which the observations were produced.
 
 ---
 
 # 5. Runtime observation
 
 NeoMundi records runtime measurements including:
+
 - G-score evolution,
 - regime transitions,
 - DROP events,
 - total variation,
-- and runtime continuity patterns.
+- runtime continuity patterns,
+- execution metadata,
+- and measurement limitations.
 
 Measurements are recorded independently from expected outcomes.
 
----
+NeoMundi observations constitute measurement outputs within the defined protocol. They do not independently establish legal truth, factual truth, system safety, certification status, or authorization to continue operating.
 
-# 6. Post-hoc comparison only
-
-Comparison between:
-- observed outputs,
-- frozen witness constraints,
-- and withheld expected-outcome records
-
-occurs only after execution is completed.
-
-No retrofitting of categories is permitted after observation.
+The raw observations, derived measurements, interpretation rules, and later conclusions must remain distinguishable and attributable.
 
 ---
 
-# 7. Admissible claims
+# 6. Independent post-hoc comparison
 
-Round 2 may support claims regarding:
-- runtime consistency,
+Cross-layer comparison occurs only after:
+
+- provider execution is complete,
+- NeoMundi runtime measurements are frozen,
+- governed-state evidence records are frozen,
+- and withheld expected-outcome records are released for comparison.
+
+The comparison must explicitly document:
+
+- which artifacts are being compared,
+- the source and version of each artifact,
+- the comparison criteria,
+- the reference standard or expected-outcome record used,
+- the actor or process performing the comparison,
+- and the limitations of the comparison.
+
+Comparison may examine, for example:
+
+- agreement or divergence between observed behavior and withheld expected outcomes,
+- continuity or transition across repeated executions,
+- consistency between declared runtime conditions and preserved governed-state evidence,
+- and reproducibility across equivalent protocol conditions.
+
+Independent comparison must not silently function as:
+
+- a provider ranking,
+- a universal benchmark,
+- a certification mechanism,
+- a legal judgment,
+- or a verdict on the overall quality or safety of a system.
+
+No retrofitting of categories, expected outcomes, or comparison standards is permitted after observation.
+
+---
+
+# 7. Formal freeze procedure
+
+Before any protocol section, evidence category, comparison rule, or claim boundary is formally frozen, the freeze process must be documented.
+
+The freeze record must identify:
+
+- the protocol element proposed for freeze,
+- the person or actor proposing the freeze,
+- the reviewers invited to examine it,
+- the version and date of the proposal,
+- any objections or reservations raised,
+- the final disposition of those objections,
+- the person or process responsible for confirming the freeze,
+- and the effective protocol version.
+
+A freeze does not erase disagreement.
+
+If a peer objects before the freeze, the objection must either:
+
+- be resolved,
+- be incorporated into the protocol,
+- or be recorded as an unresolved reservation.
+
+If a substantive objection is raised after the freeze, it must not retroactively modify completed executions.
+
+It must instead be:
+
+- documented,
+- reviewed,
+- and, where appropriate, incorporated into a successor protocol version.
+
+The previous frozen version must remain accessible for audit and reproducibility.
+
+---
+
+# 8. Admissible claims
+
+Round 2 may support bounded claims regarding:
+
+- runtime consistency within the tested conditions,
 - reproducibility of observed patterns,
 - behavioral regime continuity,
-- and partial runtime classification stability.
+- identifiable regime transitions,
+- partial runtime classification stability,
+- and the ability to generate independently reviewable evidence structures.
+
+Such claims apply only to:
+
+- the tested prompt batches,
+- the documented providers and runtime conditions,
+- the measurement and protocol versions used,
+- and the observation period concerned.
 
 Round 2 does NOT support claims regarding:
+
 - universal truth detection,
 - complete hallucination detection,
 - proof of physical laws,
-- or universal model interpretability.
+- universal model interpretability,
+- legal or regulatory admissibility of evidence,
+- provider-wide safety,
+- legal certification,
+- regulatory approval,
+- or authorization for continued deployment.
+
+Evidence may be preserved and presented for review without being declared admissible by NeoMundi or ASRO.
+
+Final determinations remain with the relevant reviewer, organization, procedure, or competent authority.
 
 ---
 
-# 8. Known limitations
+# 9. Known limitations
 
 NeoMundi explicitly recognizes several limitations:
+
 - fluent hallucinations may remain thermodynamically stable,
 - some semantic failures may not produce measurable runtime instability,
 - runtime measurements remain partially model-dependent,
+- providers may change models or infrastructure without full disclosure,
+- expected-outcome records may themselves contain uncertainty or disagreement,
+- comparison results depend on the selected reference standard,
 - and some components of the methodology remain experimental.
+
+These limitations must accompany any publication or interpretation of Round 2 results.
 
 ---
 
-# 9. Reviewability principle
+# 10. Reviewability principle
 
 The methodology is designed to be:
+
 - independently reviewable,
 - reproducible,
 - documentable,
+- versioned,
+- attributable,
 - and open to methodological criticism.
 
-The objective is not to establish authority by assertion, but to progressively evaluate whether runtime instrumentation can support meaningful governance evidence structures.
+Reviewability requires access, where legally and operationally possible, to:
+
+- the protocol version,
+- frozen definitions,
+- execution conditions,
+- measurement outputs,
+- provenance records,
+- comparison criteria,
+- freeze records,
+- known limitations,
+- and documented objections or reservations.
+
+The objective is not to establish authority by assertion, but to progressively evaluate whether runtime instrumentation and governed-state evidence can support meaningful governance evidence structures.
 
 ---
 
-# 10. Current status
+# 11. Current status
 
 Round 2 constitutes an exploratory methodological phase.
 
-No claim of formal validation, certification, or universal applicability is made at this stage.
+No claim of formal validation, certification, regulatory approval, legal admissibility, or universal applicability is made at this stage.
+
+The protocol remains subject to independent review, documented criticism, and future versioned revision.
